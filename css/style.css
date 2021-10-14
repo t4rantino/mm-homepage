@@ -58,3 +58,31 @@ body {
   font-size: 20px;
   color: #777777;
 }
+
+/* SECTION TWO */
+#section-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #66ADE4;
+}
+
+#section-two .container {
+  padding: 160px 0;
+  width: 50%;
+}
+
+#section-two .text {
+  font-size: 24px;
+  color: #F0F0F0;
+}
+
+#section-two a {
+  text-decoration: none;
+  color: #F0F0F0;
+}
+
+#section-two a:hover { text-decoration: underline; }
+
+/* SECTION THREE */
+/* FOOTER */
