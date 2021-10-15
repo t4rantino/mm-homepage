@@ -137,7 +137,6 @@ footer {
 
 footer .container {
   align-self: center;
-  padding: 8px 0 32px;
   width: 75%;
   text-align: center;
 }
@@ -147,7 +146,6 @@ footer .container {
   align-items: center;
   justify-content: center;
   padding: 28px 0;
-  border-bottom: 1px solid #7C7C7C;
 }
 
 #bottom-nav ul {
@@ -217,8 +215,18 @@ footer .social-media a {
 }
 
 footer .social-media a:hover { color: #F0F0F0; }
+@media (max-width: 560px) {
+  /* SECTION THREE */
+  #section-three .farmasi-info { flex-flow: column wrap; }
+
+  #section-three img {
+    margin: 0 0 20px 0;
+    width: 160px;
+  }
+}
 
 @media (max-width: 752px) {
+
   /* FOOTER */
   footer .social-media {
     flex-flow: column wrap;
@@ -231,5 +239,8 @@ footer .social-media a:hover { color: #F0F0F0; }
     padding: 0;
   }
 
-  footer .social-media ul { justify-content: center; }
+  footer .social-media ul {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
 }
