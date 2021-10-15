@@ -215,6 +215,8 @@ body {
   color: #383838;
 }
 
+#footer .social-media a:hover { color: #F0F0F0; }
+
 @media (max-width: 752px) {
   /* FOOTER */
   #footer .social-media {
