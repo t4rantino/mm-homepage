@@ -85,4 +85,43 @@ body {
 #section-two a:hover { text-decoration: underline; }
 
 /* SECTION THREE */
+#section-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #383838;
+}
+
+#section-three .container {
+  padding: 64px 0;
+  width: 75%;
+}
+
+#section-three .content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#section-three .farmasi-info {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  width: 452px;
+  background-color: #FFFFFF;
+}
+
+#section-three img {
+  margin: 0 20px 0 0;
+  width: 100px;
+}
+
+#section-three .text a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#section-three .text a:hover { text-decoration: underline; }
+
 /* FOOTER */
