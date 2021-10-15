@@ -110,6 +110,7 @@ body {
   padding: 20px;
   width: 452px;
   background-color: #FFFFFF;
+  box-shadow: 0 4px 16px #000000;
 }
 
 #section-three img {
