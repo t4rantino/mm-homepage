@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 html,
-body { height: 100vw; }
+body { height: 100vh; }
 
 body {
   display: flex;
@@ -128,6 +128,7 @@ body {
 /* FOOTER */
 #footer {
   display: flex;
+  flex: none;
   flex-direction: column;
 }
 
@@ -201,4 +202,20 @@ body {
   padding: 24px;
   text-decoration: none;
   color: #FFFFFF;
+}
+
+@media (max-width: 752px) {
+  /* FOOTER */
+  #footer .social-media {
+    flex-flow: column wrap;
+    align-items: stretch;
+  }
+
+  #footer .follow-me {
+    justify-content: center;
+    height: 66px;
+    padding: 0;
+  }
+
+  #footer .social-media ul { justify-content: center; }
 }
