@@ -129,13 +129,13 @@ body {
 #section-three .text a:hover { text-decoration: underline; }
 
 /* FOOTER */
-#footer {
+footer {
   display: flex;
   flex: none;
   flex-direction: column;
 }
 
-#footer .container {
+footer .container {
   align-self: center;
   padding: 8px 0 32px;
   width: 75%;
@@ -175,22 +175,22 @@ body {
   font-size: 32px;
 }
 
-#footer .contact { padding: 28px 0; }
+footer .contact { padding: 28px 0; }
 
-#footer .contact a {
+footer .contact a {
   text-decoration: none;
   color: #000000;
 }
 
-#footer .contact a:hover { text-decoration: underline; }
+footer .contact a:hover { text-decoration: underline; }
 
-#footer .social-media {
+footer .social-media {
   display: flex;
   align-items: center;
   width: 100%;
 }
 
-#footer .follow-me {
+footer .follow-me {
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -201,7 +201,7 @@ body {
   color: #F0F0F0;
 }
 
-#footer .social-media ul {
+footer .social-media ul {
   display: flex;
   padding: 0;
   margin: 0;
@@ -210,26 +210,26 @@ body {
   background-color: #66ADE4;
 }
 
-#footer .social-media a {
+footer .social-media a {
   padding: 24px;
   text-decoration: none;
   color: #383838;
 }
 
-#footer .social-media a:hover { color: #F0F0F0; }
+footer .social-media a:hover { color: #F0F0F0; }
 
 @media (max-width: 752px) {
   /* FOOTER */
-  #footer .social-media {
+  footer .social-media {
     flex-flow: column wrap;
     align-items: stretch;
   }
 
-  #footer .follow-me {
+  footer .follow-me {
     justify-content: center;
     height: 66px;
     padding: 0;
   }
 
-  #footer .social-media ul { justify-content: center; }
+  footer .social-media ul { justify-content: center; }
 }
