@@ -159,12 +159,15 @@ footer .container {
 
 #bottom-nav a {
   display: inline-block;
-  padding: 12px 24px 12px 0;
+  padding: 12px;
   text-decoration: none;
   color: #000000;
 }
 
-#bottom-nav a:hover { text-decoration: underline; }
+#bottom-nav a:hover {
+  background-color: #F0F0F0;
+  border-radius: 4px;
+}
 
 #bottom-nav .text {
   font-family: "Dancing Script", apple-system, BlinkMacSystemFont,
@@ -216,8 +219,8 @@ footer .social-media a:hover { color: #F0F0F0; }
   }
 }
 
-/* @media (max-width: 752px) {
-  /* FOOTER 
+@media (max-width: 752px) {
+  /* FOOTER */
   footer .social-media {
     flex-flow: column wrap;
     align-items: stretch;
