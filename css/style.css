@@ -15,17 +15,27 @@ body {
 main { flex: 1; }
 
 /* HEADER */
-#top-nav {
+#header {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
   padding: 16px 20px;
-  width: 100%;
 }
+
+#header .logo {
+  font-family: "Dancing Script", apple-system, BlinkMacSystemFont,
+  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+  'Helvetica Neue', sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000000;
+}
+
+#top-nav { display: flex; }
 
 #top-nav ul {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -137,13 +147,13 @@ main { flex: 1; }
 #section-two .text a:hover { text-decoration: underline; }
 
 /* FOOTER */
-footer {
+#footer {
   display: flex;
   flex: none;
   flex-direction: column;
 }
 
-footer .container {
+#footer .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -155,7 +165,6 @@ footer .container {
 #bottom-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin: 0;
   padding: 28px 0;
 }
@@ -181,21 +190,23 @@ footer .container {
   border-radius: 4px;
 }
 
-footer .logo {
+#footer .logo {
   font-family: "Dancing Script", apple-system, BlinkMacSystemFont,
   'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
   'Helvetica Neue', sans-serif;
   font-size: 24px;
+  text-decoration: none;
+  color: #000000;
 }
 
-footer .social-media {
+#footer .social-media {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   width: 100%;
 }
 
-footer .social-media ul {
+#footer .social-media ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -207,13 +218,13 @@ footer .social-media ul {
   background-color: #66ADE4;
 }
 
-footer .social-media a {
+#footer .social-media a {
   padding: 24px;
   text-decoration: none;
   color: #383838;
 }
 
-footer .social-media a:hover { color: #F0F0F0; }
+#footer .social-media a:hover { color: #F0F0F0; }
 
 @media (max-width: 280px) {
   /* SECTION ONE */
@@ -222,8 +233,7 @@ footer .social-media a:hover { color: #F0F0F0; }
 
 @media (max-width: 425px) {
   /* HEADER */
-  #top-nav,
-  #top-nav ul { justify-content: center; }
+  #header { flex-flow: column wrap; }
 
   /* SECTION THREE */
   #section-two .farmasi-info { flex-flow: column wrap; }
@@ -234,14 +244,14 @@ footer .social-media a:hover { color: #F0F0F0; }
   }
 
   /* FOOTER */
-  footer .container {
+  #footer .container {
     flex-flow: column wrap;
     padding: 16px 0 28px;
   }
 
   #bottom-nav { padding: 0; }
 
-  footer .logo { margin: 12px 0 0 0; }
+  #footer .logo { margin: 12px 0 0 0; }
 }
 
 @media (max-width: 768px) {
