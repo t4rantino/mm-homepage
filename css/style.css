@@ -212,7 +212,16 @@ footer .social-media a {
 
 footer .social-media a:hover { color: #F0F0F0; }
 
+@media (max-width: 280px) {
+  /* SECTION ONE */
+  #section-one .heading { font-size: 52px; }
+}
+
 @media (max-width: 425px) {
+  /* HEADER */
+  #top-nav,
+  #top-nav ul { justify-content: center; }
+
   /* SECTION THREE */
   #section-two .farmasi-info { flex-flow: column wrap; }
 
