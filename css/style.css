@@ -116,12 +116,14 @@ main { flex: 1; }
   padding: 20px;
   width: 452px;
   background-color: #FFFFFF;
+  border-radius: 4px;
   box-shadow: 0 4px 16px #000000;
 }
 
 #section-three img {
   margin: 0 20px 0 0;
   width: 100px;
+  border-radius: 4px;
 }
 
 #section-three .text a {
