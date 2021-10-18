@@ -12,7 +12,7 @@ body {
   'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-main { flex: 1; }
+#main { flex: 1; }
 
 /* HEADER */
 #header {
@@ -23,10 +23,12 @@ main { flex: 1; }
 }
 
 #header .logo {
+  padding: 0 0 0 12px;
   font-family: "Dancing Script", apple-system, BlinkMacSystemFont,
   'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
   'Helvetica Neue', sans-serif;
   font-size: 24px;
+  text-align: center;
   text-decoration: none;
   color: #000000;
 }
@@ -50,7 +52,7 @@ main { flex: 1; }
 
 #top-nav a:hover {
   background-color: #F0F0F0;
-  border-radius: 4px;
+  border-radius: 16px 2px;
 }
 
 /* SECTION ONE */
@@ -58,7 +60,6 @@ main { flex: 1; }
   display: flex;
   align-items: center;
   flex-flow: column wrap;
-  justify-content: center;
   padding: 36px 52px;
 }
 
@@ -69,7 +70,6 @@ main { flex: 1; }
   'Helvetica Neue', sans-serif;
   font-size: 64px;
   font-weight: 500;
-  text-align: center;
 }
 
 #section-one .subheading {
@@ -86,19 +86,15 @@ main { flex: 1; }
   text-align: justify;
 }
 
-#section-one .text a {
-  text-decoration: none;
-  color: #000000;
-}
+#section-one .text a { color: #000000; }
 
-#section-one .text a:hover { text-decoration: underline; }
+#section-one .text a:hover { color: #000000A1; }
 
 /* SECTION TWO */
 #section-two {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  justify-content: center;
   background-color: #383838;
 }
 
@@ -129,7 +125,7 @@ main { flex: 1; }
   padding: 20px;
   width: 452px;
   background-color: #FFFFFF;
-  border-radius: 4px;
+  border-radius: 16px 2px;
   box-shadow: 0 4px 16px #000000;
 }
 
@@ -139,12 +135,9 @@ main { flex: 1; }
   border-radius: 4px;
 }
 
-#section-two .text a {
-  text-decoration: none;
-  color: #000000;
-}
+#section-two .text a { color: #000000; }
 
-#section-two .text a:hover { text-decoration: underline; }
+#section-two .text a:hover { color: #000000A1; }
 
 /* FOOTER */
 #footer {
@@ -159,15 +152,9 @@ main { flex: 1; }
   justify-content: space-between;
   margin: 0 auto;
   width: 75%;
-  text-align: center;
 }
 
-#bottom-nav {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 28px 0;
-}
+#bottom-nav { padding: 28px 0; }
 
 #bottom-nav ul {
   display: flex;
@@ -187,7 +174,7 @@ main { flex: 1; }
 
 #bottom-nav a:hover {
   background-color: #F0F0F0;
-  border-radius: 4px;
+  border-radius: 16px 2px;
 }
 
 #footer .logo {
@@ -195,6 +182,7 @@ main { flex: 1; }
   'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
   'Helvetica Neue', sans-serif;
   font-size: 24px;
+  text-align: center;
   text-decoration: none;
   color: #000000;
 }
@@ -202,8 +190,6 @@ main { flex: 1; }
 #footer .social-media {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
-  width: 100%;
 }
 
 #footer .social-media ul {
@@ -232,22 +218,22 @@ main { flex: 1; }
 }
 
 @media (max-width: 425px) {
+  /* HEADER, SECTION TWO, FOOTER */
+  #header,
+  #section-two .farmasi-info,
+  #footer .container { flex-flow: column wrap; }
+
   /* HEADER */
-  #header { flex-flow: column wrap; }
+  #header .logo { padding: 0; }
 
-  /* SECTION THREE */
-  #section-two .farmasi-info { flex-flow: column wrap; }
-
+  /* SECTION TWO */
   #section-two img {
     margin: 0 0 20px 0;
     width: 160px;
   }
 
   /* FOOTER */
-  #footer .container {
-    flex-flow: column wrap;
-    padding: 16px 0 28px;
-  }
+  #footer .container { padding: 16px 0 28px; }
 
   #bottom-nav { padding: 0; }
 
