@@ -216,3 +216,11 @@ footer .social-media a:hover { color: #F0F0F0; }
     width: 160px;
   }
 }
+
+@media (max-width: 800px) {
+  /* FOOTER */
+  #bottom-nav { flex-flow: column wrap; }
+
+  #bottom-nav ul { margin: 0; }
+  #bottom-nav .text { margin: 12px 0 0 0; }
+}
