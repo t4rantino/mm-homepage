@@ -14,7 +14,7 @@ body {
 
 main { flex: 1; }
 
-/* SECTION ONE */
+/* HEADER */
 #top-nav {
   display: flex;
   justify-content: flex-end;
@@ -43,55 +43,48 @@ main { flex: 1; }
   border-radius: 4px;
 }
 
+/* SECTION ONE */
 #section-one .container {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
   justify-content: center;
-  padding: 240px 52px;
-  text-align: center;
+  padding: 36px 52px;
 }
 
-#section-one .title {
+#section-one .heading {
   margin: 0 0 12px 0;
   font-family: "Dancing Script", apple-system, BlinkMacSystemFont,
   'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
   'Helvetica Neue', sans-serif;
-  font-size: 52px;
+  font-size: 64px;
+  font-weight: 500;
+  text-align: center;
 }
 
-#section-one .subtitle {
+#section-one .subheading {
+  margin: 0;
+  width: 24%;
   font-size: 20px;
   color: #777777;
+  text-align: center;
 }
+
+#section-one .text {
+  width: 24%;
+  margin: 52px 0;
+  text-align: justify;
+}
+
+#section-one .text a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#section-one .text a:hover { text-decoration: underline; }
 
 /* SECTION TWO */
 #section-two {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #66ADE4;
-}
-
-#section-two .container {
-  padding: 160px 0;
-  width: 80%;
-}
-
-#section-two .text {
-  font-size: 24px;
-  color: #F0F0F0;
-}
-
-#section-two a {
-  text-decoration: none;
-  color: #F0F0F0;
-}
-
-#section-two a:hover { text-decoration: underline; }
-
-/* SECTION THREE */
-#section-three {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -99,7 +92,7 @@ main { flex: 1; }
   background-color: #383838;
 }
 
-#section-three .heading {
+#section-two .heading {
   margin: 64px 0 36px;
   width: 75%;
   font-size: 36px;
@@ -108,18 +101,18 @@ main { flex: 1; }
   color: #F0F0F0;
 }
 
-#section-three .container {
+#section-two .container {
   padding: 0 0 64px 0;
   width: 75%;
 }
 
-#section-three .cards {
+#section-two .cards {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-#section-three .farmasi-info {
+#section-two .farmasi-info {
   display: flex;
   align-items: center;
   margin: 20px;
@@ -130,18 +123,18 @@ main { flex: 1; }
   box-shadow: 0 4px 16px #000000;
 }
 
-#section-three img {
+#section-two img {
   margin: 0 20px 0 0;
   width: 100px;
   border-radius: 4px;
 }
 
-#section-three .text a {
+#section-two .text a {
   text-decoration: none;
   color: #000000;
 }
 
-#section-three .text a:hover { text-decoration: underline; }
+#section-two .text a:hover { text-decoration: underline; }
 
 /* FOOTER */
 footer {
