@@ -207,7 +207,7 @@ footer .social-media a {
 
 footer .social-media a:hover { color: #F0F0F0; }
 
-@media (max-width: 560px) {
+@media (max-width: 425px) {
   /* SECTION THREE */
   #section-three .farmasi-info { flex-flow: column wrap; }
 
@@ -217,7 +217,7 @@ footer .social-media a:hover { color: #F0F0F0; }
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   /* FOOTER */
   #bottom-nav {
     flex-flow: column wrap;
