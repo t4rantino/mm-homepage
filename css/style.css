@@ -12,9 +12,9 @@ body {
   'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#main { flex: 1; }
+main { flex: 1; }
 
-/*SECTION ONE */
+/* SECTION ONE */
 #top-nav {
   display: flex;
   justify-content: flex-end;
@@ -103,7 +103,7 @@ body {
   width: 75%;
 }
 
-#section-three .content {
+#section-three .cards {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
