@@ -93,13 +93,23 @@ main { flex: 1; }
 /* SECTION THREE */
 #section-three {
   display: flex;
+  flex-flow: column wrap;
   align-items: center;
   justify-content: center;
   background-color: #383838;
 }
 
+#section-three .heading {
+  margin: 64px 0 36px;
+  width: 75%;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  color: #F0F0F0;
+}
+
 #section-three .container {
-  padding: 64px 0;
+  padding: 0 0 64px 0;
   width: 75%;
 }
 
