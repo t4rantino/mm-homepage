@@ -96,8 +96,8 @@ body {
 /* SECTION TWO */
 #section-two {
   display: flex;
-  flex-flow: column wrap;
   align-items: center;
+  flex-flow: column wrap;
   background-color: #383737;
 }
 
@@ -204,8 +204,8 @@ body {
   justify-content: center;
   padding: 0;
   margin: 0;
-  font-size: 1.5em;
   width: 100%;
+  font-size: 1.5em;
   list-style-type: none;
   background-color: #383737;
 }
