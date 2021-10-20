@@ -93,10 +93,6 @@ body {
   text-align: justify;
 }
 
-#section-one .text a { color: #000000; }
-
-#section-one .text a:hover { color: #000000A1; }
-
 /* SECTION TWO */
 #section-two {
   display: flex;
