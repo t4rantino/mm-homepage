@@ -43,7 +43,8 @@ body {
   list-style-type: none;
 }
 
-#top-nav a {
+#top-nav a,
+#top-nav #current-page {
   display: inline-block;
   padding: 12px;
   text-decoration: none;
@@ -54,6 +55,8 @@ body {
   background-color: #F0F0F0;
   border-radius: 16px 2px;
 }
+
+#top-nav #current-page { font-weight: 600; }
 
 /* SECTION ONE */
 #section-one .container {
