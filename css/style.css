@@ -19,9 +19,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
   padding: 16px 20px;
-  background-color: #FFFFFF;
-}
+  width: 100%;
+  background-color: #FFFFFF;}
 
 #header .logo {
   padding: 0 0 0 12px;
@@ -66,7 +69,7 @@ body {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
-  padding: 36px 52px;
+  padding: 100px 52px 36px;
   background-color: #FFFFFF;
   color: #000000;
 }
