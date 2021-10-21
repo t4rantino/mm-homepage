@@ -23,38 +23,40 @@
   <main id="main">
     <section id="contact-section">
       <h1 class="heading">Contact Me</h1>
-      <form class="contact-form">
+      <form class="contact-form" action="#" method="GET">
         <ul>
           <li>
-            <label>First Name</label>
-            <input>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" required>
           </li>
           <li>
-            <label>Last Name</label>
-            <input>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
           </li>
           <li>
-            <label>Email Address</label>
-            <input>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email">
           </li>
           <li>
-            <label>Email Subject</label>
-            <input>
+            <label for="subject">Email Subject</label>
+            <input type="text" id="subject" name="subject">
           </li>
           <li>
-            <label>Your Message</label>
-            <textarea></textarea>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message"></textarea>
           </li>
         </ul>
-        <ul>
-          <li>
-            <input type="checkbox">
-            <label>Lorem ipsum</label>
-          </li>
-          <li>
-            <button>Send message</button>
-          </li>
-        </ul>
+        <div>
+          <input type="checkbox" id="permission" name="permission">
+          <label for="permission">
+            By checking this box and submitting your information,
+            you are granting me permission to email you. You may
+            unsubscribe at any time.
+          </label>
+        </div>
+        <div>
+          <button type="submit">Send Message</button>
+        </div>
       </form>
     </section>
   </main>
