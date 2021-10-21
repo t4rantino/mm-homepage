@@ -23,39 +23,42 @@
   <main id="main">
     <section id="contact-section">
       <h1 class="heading">Contact Me</h1>
+      <p class="text">Required fields are marked with an asterisk (<span class="required">*</span>).</p>
       <form class="contact-form" action="#" method="GET">
-        <ul>
-          <li>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="fname" required>
-          </li>
-          <li>
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lname">
-          </li>
-          <li>
-            <label for="email">Your Email</label>
-            <input type="email" id="email" name="email">
-          </li>
-          <li>
-            <label for="subject">Email Subject</label>
-            <input type="text" id="subject" name="subject">
-          </li>
-          <li>
-            <label for="message">Your Message</label>
-            <textarea id="message" name="message"></textarea>
-          </li>
-        </ul>
-        <div>
-          <input type="checkbox" id="permission" name="permission">
-          <label for="permission">
+        <div class="container">
+          <div class="text-field-container">
+            <div>
+              <label for="fname">First Name<span class="required">*</span></label>
+              <input type="text" id="fname" name="fname" aria-required="true">
+            </div>
+            <div>
+              <label for="lname">Last Name<span class="required">*</span></label>
+              <input type="text" id="lname" name="lname" aria-required="true">
+            </div>
+            <div>
+              <label for="email">Your Email<span class="required">*</span></label>
+              <input type="email" id="email" name="email" aria-required="true">
+            </div>
+            <div>
+              <label for="subject">Email Subject<span class="required">*</span></label>
+              <input type="text" id="subject" name="subject" aria-required="true">
+            </div>
+          </div>
+          <div class="textarea-container">
+            <label for="message">Your Message<span class="required">*</span></label>
+            <textarea id="message" name="message" aria-required="true"></textarea>
+          </div>
+        </div>
+        <div class="checkbox-container">
+          <input type="checkbox" id="permit" name="permit" aria-required="true">
+          <label for="permit">
             By checking this box and submitting your information,
             you are granting me permission to email you. You may
-            unsubscribe at any time.
+            unsubscribe at any time.<span class="required">*</span>
           </label>
         </div>
         <div>
-          <button type="submit">Send Message</button>
+          <input type="submit" value="Send Message">
         </div>
       </form>
     </section>
