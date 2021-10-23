@@ -44,8 +44,7 @@ body {
   list-style-type: none;
 }
 
-#top-nav a,
-#top-nav #current-page {
+#top-nav a {
   display: inline-block;
   padding: 12px;
   text-decoration: none;
@@ -53,8 +52,6 @@ body {
 }
 
 #top-nav a:hover { text-decoration: underline; }
-
-#top-nav #current-page { font-weight: 600; }
 
 /* CONTACT SECTION */
 #contact-section {
