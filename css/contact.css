@@ -1,5 +1,8 @@
 * { box-sizing: border-box; }
 
+*:focus { outline: 4px solid #55A75B; }
+
+/* #185c4d #eeebcd */
 html,
 body { height: 100vh; }
 
@@ -133,10 +136,6 @@ body {
   'Open Sans', 'Helvetica Neue', sans-serif;
   border: 1px solid #F0EDEE;
 }
-
-.contact-form [type="text"]:focus,
-.contact-form [type="email"]:focus,
-.contact-form textarea:focus { outline: 2px solid #356A4A; }
 
 .contact-form textarea {
   height: 100%;
