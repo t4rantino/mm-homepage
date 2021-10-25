@@ -126,6 +126,7 @@ body {
   background-color: #FFFFFF;
   border-radius: 4px;
   box-shadow: 0 4px 16px #000000;
+  color: #356A4A;
 }
 
 #section-two img {
@@ -134,9 +135,9 @@ body {
   border-radius: 4px;
 }
 
-#section-two .text a { color: #000000; }
+#section-two .text a { color: #356A4A; }
 
-#section-two .text a:hover { color: #000000A1; }
+#section-two .text a:hover { color: #07393C; }
 
 /* FOOTER */
 #footer {
