@@ -193,27 +193,6 @@ body {
   color: #F0EDEE;
 }
 
-#bottom-nav ul {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  margin: 0 24px;
-  padding: 0;
-  list-style-type: none;
-}
-
-#bottom-nav a {
-  display: inline-block;
-  margin: 0 0 8px 0;
-  padding: 12px;
-  text-decoration: none;
-  color: #F0EDEE;
-}
-
-#bottom-nav a:hover {
-  text-decoration: underline;
-}
-
 .social-media ul {
   display: flex;
   flex-flow: row wrap;
@@ -243,8 +222,6 @@ body {
 
   /* FOOTER */
   #footer .container { width: 270px; }
-
-  #bottom-nav ul { margin: 0; }
 }
 
 @media (max-width: 768px) {
