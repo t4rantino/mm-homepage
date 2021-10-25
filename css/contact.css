@@ -106,15 +106,10 @@ body {
   flex-flow: column nowrap;
 }
 
-.required {
-  margin: 4px;
-  font-size: 150%;
-  font-weight: 700;
-  vertical-align: text-top;
-  color: #FF0000;
+.contact-form label {
+  margin: 0 0 8px 0;
+  color: #F0EDEE;
 }
-
-.contact-form label { color: #F0EDEE; }
 
 .contact-form #fname,
 .contact-form #lname,
