@@ -139,7 +139,7 @@ body {
 #section-two .text a:hover { color: #07393C; }
 
 #section-two .product-img {
-  margin: 0 0 0 20px;
+  margin: 0 10px;
   width: 100px;
   border-radius: 4px;
 }
@@ -208,7 +208,7 @@ body {
 
   /* SECTION TWO */
   #section-two .product-img {
-    margin: 20px 0 0 0;
+    margin: 10px 0;
     width: 160px;
   }
 
