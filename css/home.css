@@ -62,7 +62,7 @@ body {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
-  padding: 36px 52px;
+  padding: 36px;
   background-color: #356A4A;
   color: #F0EDEE;
 }
@@ -85,7 +85,7 @@ body {
 
 #section-one .text {
   width: 42%;
-  margin: 52px 0;
+  margin: 36px 0;
 }
 
 /* SECTION TWO */
