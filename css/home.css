@@ -201,7 +201,14 @@ body {
 
 #footer .social-media a:hover { color: #BBB8B9; }
 
-#footer .copyright { color: #F0EDEE; }
+#footer .credit {
+  text-align: center;
+  color: #F0EDEE;
+}
+
+#footer .credit a { color: #F0EDEE; }
+
+#footer .credit a:hover { color: #BBB8B9; }
 
 @media (max-width: 425px) {
   /* HEADER, SECTION TWO */
@@ -224,6 +231,8 @@ body {
 
   /* FOOTER */
   #footer .container { width: 270px; }
+
+  #footer .credit { width: 156px; }
 }
 
 @media (max-width: 768px) {
