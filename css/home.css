@@ -155,7 +155,9 @@ body {
   display: flex;
   align-items: center;
   flex: none;
+  flex-flow: column wrap;
   justify-content: center;
+  padding: 24px 0;
   background-color: #356A4A;
 }
 
@@ -163,7 +165,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding: 24px 0;
+  padding: 0 0 8px 0;
 }
 
 #footer .logo {
@@ -198,6 +200,9 @@ body {
 }
 
 #footer .social-media a:hover { color: #BBB8B9; }
+
+#footer .copyright { color: #F0EDEE; }
+
 @media (max-width: 425px) {
   /* HEADER, SECTION TWO */
   #header,
