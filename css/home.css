@@ -1,5 +1,10 @@
 * { box-sizing: border-box; }
 
+*:focus {
+  border-radius: 4px;
+  outline: 2px solid #07393C;
+}
+
 html,
 body { height: 100vh; }
 
