@@ -205,7 +205,12 @@ body {
   #header .logo { margin: 0; }
 
   /* SECTION TWO */
-  #section-two img {
+  #section-two .product-img {
+    margin: 20px 0 0 0;
+    width: 160px;
+  }
+
+  #section-two .mm-img {
     margin: 0 0 20px 0;
     width: 160px;
   }
