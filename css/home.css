@@ -94,11 +94,12 @@ body {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
+  padding: 48px 0;
   background-color: #07393C;
 }
 
 #section-two .heading {
-  margin: 64px 0 36px;
+  margin: 0 0 24px 0;
   width: 75%;
   font-size: 36px;
   font-weight: 600;
@@ -106,10 +107,7 @@ body {
   color: #F0EDEE;
 }
 
-#section-two .container {
-  padding: 0 0 64px 0;
-  width: 75%;
-}
+#section-two .container { width: 75%; }
 
 #section-two .cards {
   display: flex;
