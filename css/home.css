@@ -76,17 +76,15 @@ body {
   font-weight: 500;
 }
 
+#section-one .text-container { width: 60%; }
+
 #section-one .text1 {
-  margin: 12px 0 36px;
-  width: 42%;
+  margin: 0 0 36px 0;
   text-align: center;
   font-size: 20px;
 }
 
-#section-one .text2 {
-  margin: 0;
-  width: 42%;
-}
+#section-one .text2 { margin: 0; }
 
 /* SECTION TWO */
 #section-two {
@@ -222,6 +220,5 @@ body {
 
 @media (max-width: 768px) {
   /* SECTION ONE */
-  #section-one .text1,
-  #section-one .text2 { width: 80%; }
+  #section-one .text-container { width: 80%; }
 }
