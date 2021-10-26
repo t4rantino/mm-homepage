@@ -216,6 +216,6 @@ body {
 
 @media (max-width: 768px) {
   /* SECTION ONE */
-  #section-one .subheading,
-  #section-one .text { width: 80%; }
+  #section-one .text1,
+  #section-one .text2 { width: 80%; }
 }
