@@ -1,7 +1,5 @@
 * { box-sizing: border-box; }
 
-*:focus { outline: 4px solid #356A4A; }
-
 html,
 body { height: 100vh; }
 
