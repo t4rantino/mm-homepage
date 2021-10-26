@@ -203,7 +203,7 @@ body {
   #section-two .farmasi-info { flex-flow: column wrap; }
 
   /* HEADER */
-  #header .logo { padding: 0; }
+  #header .logo { margin: 0; }
 
   /* SECTION TWO */
   #section-two img {
