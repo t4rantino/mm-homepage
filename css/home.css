@@ -94,7 +94,7 @@ body {
   background-color: #07393C;
 }
 
-#section-two .heading {
+#section-two h2 {
   margin: 0 0 24px 0;
   width: 75%;
   font-size: 36px;
@@ -102,7 +102,7 @@ body {
   color: #F0EDEE;
 }
 
-#section-two .container { width: 75%; }
+#section-two .container1 { width: 75%; }
 
 #section-two .cards {
   display: flex;
@@ -112,7 +112,8 @@ body {
 
 #section-two .farmasi-info {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
   margin: 20px;
   padding: 20px;
   width: 452px;
@@ -120,6 +121,14 @@ body {
   border-radius: 4px;
   box-shadow: 0 4px 16px #000000;
 }
+
+#section-two h3 {
+  margin: 0 0 12px 0;
+  font-size: 20px;
+  color: #07393C;
+}
+
+#section-two .container2 { display: flex; }
 
 #section-two .text {
   flex: 1;
@@ -131,6 +140,11 @@ body {
 
 #section-two .text a:hover { text-decoration: none; }
 
+#section-two .product-link {
+  display: flex;
+  justify-content: center;
+}
+
 #section-two .product-img {
   height: 100px;
   margin: 0 10px;
@@ -139,6 +153,7 @@ body {
 }
 
 #section-two .mm-img {
+  align-self: center;
   height: 100px;
   margin: 0 20px 0 0;
   width: 100px;
@@ -203,9 +218,11 @@ body {
   #header .logo { margin: 0; }
 
   /* SECTION TWO */
+  #section-two .container2 { flex-flow: column wrap; }
+
   #section-two .product-img {
     height: 160px;
-    margin: 10px 0;
+    margin: 12px 0;
     width: 160px;
   }
 
