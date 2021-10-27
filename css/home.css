@@ -5,6 +5,11 @@ a:focus {
   outline: 2px dashed #07393C;
 }
 
+.structural-outline {
+  position: absolute;
+  top: -9999px;
+}
+
 html,
 body { height: 100vh; }
 
