@@ -58,7 +58,7 @@ body {
 #top-nav a:hover { text-decoration: underline; }
 
 /* SECTION ONE */
-#section-one .container {
+#section-one {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
