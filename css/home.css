@@ -151,15 +151,8 @@ body {
   align-items: center;
   flex: none;
   flex-flow: column wrap;
-  justify-content: center;
   padding: 24px 0;
   background-color: #356A4A;
-}
-
-#footer .container {
-  display: flex;
-  align-items: center;
-  flex-flow: column wrap;
 }
 
 #footer .logo {
@@ -194,7 +187,10 @@ body {
 }
 
 #footer .author-credit,
-#footer .author-credit a { color: #F0EDEE; }
+#footer .author-credit a {
+  text-align: center;
+  color: #F0EDEE;
+}
 
 #footer .author-credit a:hover { text-decoration: none; }
 
