@@ -30,6 +30,12 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   flex: 1;
 }
 
+.responsive {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
+
 /* HEADER */
 #header {
   display: flex;
