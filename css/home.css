@@ -219,6 +219,8 @@ body {
   #header .logo { margin: 0; }
 
   /* SECTION TWO */
+  #section-two h3 { text-align: center; }
+
   #section-two .container2 { flex-flow: column wrap; }
 
   #section-two .product-img {
