@@ -75,7 +75,7 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   display: flex;
   align-items: center;
   flex-flow: column wrap;
-  padding: 36px;
+  padding: 36px 0;
   background-color: #356A4A;
   color: #F0EDEE;
 }
