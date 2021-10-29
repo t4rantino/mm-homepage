@@ -121,8 +121,8 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   justify-content: center;
   flex-flow: column wrap;
   margin: 20px;
-  padding: 20px;
-  width: 452px;
+  padding: 16px;
+  width: 444px;
   background-color: #FFFFFF;
   border-radius: 4px;
   box-shadow: 0 4px 16px #000000;
