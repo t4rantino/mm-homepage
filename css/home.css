@@ -209,6 +209,8 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   color: #F0EDEE;
 }
 
+#footer .author-credit { margin: 0; }
+
 #footer .author-credit a:hover { text-decoration: none; }
 
 .back-to-top {
