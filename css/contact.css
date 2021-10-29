@@ -2,7 +2,7 @@
 
 a:focus {
   border-radius: 4px;
-  outline: 2px solid #07393C;
+  outline: 2px dashed #07393C;
 }
 
 html,
