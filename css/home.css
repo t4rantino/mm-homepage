@@ -221,7 +221,7 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
 
 .back-to-top:hover { text-decoration: none; }
 
-@media (max-width: 425px) {
+@media (max-width: 580px) {
   /* HEADER, SECTION TWO */
   #header,
   #section-two .farmasi-info { flex-flow: column wrap; }
