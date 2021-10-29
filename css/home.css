@@ -232,6 +232,10 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   #header,
   #section-two .farmasi-info { flex-flow: column wrap; }
 
+  /* HEADER, FOOTER */
+  #header,
+  #footer { justify-content: center; }
+
   /* HEADER */
   #header .logo { margin: 0; }
 
