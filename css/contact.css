@@ -24,7 +24,11 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   'Helvetica Neue', sans-serif;
 }
 
-#main { flex: 1; }
+#main {
+  display: flex;
+  flex: 1;
+  flex-flow: column nowrap;
+}
 
 /* HEADER */
 #header {
