@@ -26,8 +26,8 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
 
 #main {
   display: flex;
-  flex-flow: column nowrap;
   flex: 1;
+  flex-flow: column nowrap;
 }
 
 /* HEADER */
