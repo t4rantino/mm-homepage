@@ -238,6 +238,10 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
 
 @media (max-width: 768px) {
   /* CONTACT SECTION */
+  #contact-section .heading,
+  #contact-section .text,
+  .contact-form { width: 80%; }
+
   .contact-form .container { flex-flow: column nowrap; }
 
   .text-field-container,
