@@ -219,14 +219,6 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
 
 .back-to-top:hover { text-decoration: none; }
 
-@media (max-width: 300px) {
-  .responsive {
-    display: flex;
-    flex-flow: column wrap;
-    width: 100%;
-  }
-}
-
 @media (max-width: 425px) {
   /* HEADER, SECTION TWO */
   #header,
