@@ -76,13 +76,14 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   align-items: center;
   flex: 1;
   flex-flow: column nowrap;
+  justify-content: center;
   padding: 80px 0;
   background-color: #07393C;
 }
 
 #contact-section .heading,
 #contact-section .text,
-.contact-form { width: 60%; }
+.contact-form { width: 70%; }
 
 #contact-section .heading {
   margin: 0 0 16px 0;
@@ -92,6 +93,11 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
 #contact-section .text {
   margin: 0;
   color: #F0EDEE;
+}
+
+.contact-form {
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .contact-form .container {
@@ -232,11 +238,14 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
 
   #header .logo { margin: 0; }
 
+  /* CONTACT SECTION */
+  .contact-form .button-container { align-self: center; }
+
   /* FOOTER */
   #footer .author-credit { width: 160px; }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   /* CONTACT SECTION */
   #contact-section .heading,
   #contact-section .text,
@@ -255,6 +264,13 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   .contact-form #subject { margin: 0 0 16px 0; }
 
   .contact-form textarea {
-    min-height: 200px;
+    min-height: 333px;
   }
+}
+
+@media (max-width: 1366px) {
+    /* CONTACT SECTION */
+    #contact-section .heading,
+    #contact-section .text,
+    .contact-form { width: 80%; }
 }
