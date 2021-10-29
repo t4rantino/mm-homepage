@@ -51,7 +51,7 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   color: #356A4A;
 }
 
-#top-nav ul {
+#nav ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -60,7 +60,7 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   list-style-type: none;
 }
 
-#top-nav a {
+#nav a {
   display: inline-block;
   margin: 0 12px;
   padding: 12px 0;
@@ -68,7 +68,7 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   color: #356A4A;
 }
 
-#top-nav a:hover { text-decoration: underline; }
+#nav a:hover { text-decoration: underline; }
 
 /* SECTION ONE */
 #section-one {
