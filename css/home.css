@@ -17,6 +17,7 @@ body {
   'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+#header .logo,
 h1,
 h2,
 h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
@@ -44,9 +45,6 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   font-size: 24px;
   font-weight: 400;
   text-align: center;
-}
-
-#header .logo a {
   text-decoration: none;
   color: #356A4A;
 }
