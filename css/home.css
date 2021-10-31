@@ -106,12 +106,12 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   color: #F0EDEE;
 }
 
-#section-two .container1 { width: 75%; }
-
 #section-two .cards {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin: 0 auto;
+  width: 75%;
 }
 
 #section-two .farmasi-info {
@@ -131,7 +131,7 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   color: #07393C;
 }
 
-#section-two .container2 { display: flex; }
+#section-two .container { display: flex; }
 
 #section-two .text {
   flex: 1;
@@ -218,10 +218,13 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   /* HEADER */
   #header .logo { margin: 0; }
 
+  /* SECTION ONE */
+  #section-one .text-container { width: 80%; }
+
   /* SECTION TWO */
   #section-two h3 { text-align: center; }
 
-  #section-two .container2 { flex-flow: column wrap; }
+  #section-two .container { flex-flow: column wrap; }
 
   #section-two .text { margin: 0 0 12px 0; }
 
@@ -241,5 +244,5 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
 
 @media (min-width: 1024px) {
   /* SECTION TWO */
-  #section-two .container1 { width: 960px; }
+  #section-two .cards { width: 968px; }
 }
