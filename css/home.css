@@ -224,6 +224,8 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
 
   #section-two .container2 { flex-flow: column wrap; }
 
+  #section-two .text { margin: 0; }
+
   #section-two .product-img {
     height: 160px;
     margin: 12px 0;
