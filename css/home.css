@@ -145,7 +145,7 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
 
 #section-two .product-link {
   margin: 0 auto;
-  width: max-content;
+  width: 100px;
 }
 
 #section-two .product-img {
