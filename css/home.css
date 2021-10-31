@@ -61,7 +61,7 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
 #nav a {
   display: inline-block;
   margin: 0 12px;
-  padding: 12px 0;
+  padding: 12px 4px;
   text-decoration: none;
   color: #356A4A;
 }
