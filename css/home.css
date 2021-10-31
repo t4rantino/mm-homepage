@@ -239,7 +239,7 @@ h3 { font-family: "Zen Antique", -apple-system, BlinkMacSystemFont,
   }
 }
 
-@media (max-width: 768px) {
-  /* SECTION ONE */
-  #section-one .text-container { width: 80%; }
+@media (min-width: 1024px) {
+  /* SECTION TWO */
+  #section-two .container1 { width: 970px; }
 }
