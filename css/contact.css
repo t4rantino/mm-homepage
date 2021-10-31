@@ -1,7 +1,6 @@
 * { box-sizing: border-box; }
 
 a:focus {
-  border-radius: 2px;
   outline: 2px solid #07393C;
   outline-offset: 2px;
 }
