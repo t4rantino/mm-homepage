@@ -84,12 +84,9 @@ h3 { font-size: 1.3em; }
 
 #section-one h1 { margin: 0; }
 
-#section-one .text-container { width: 60%; }
+#section-one .container { width: 60%; }
 
-#section-one .text1 {
-  margin: 0 0 36px 0;
-  text-align: center;
-}
+#section-one .text1 { margin: 0 0 36px 0; }
 
 #section-one .text2 { margin: 0; }
 
