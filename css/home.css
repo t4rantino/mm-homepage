@@ -207,15 +207,13 @@ h3 { font-size: 1.3em; }
 #footer .back-to-top:hover { text-decoration: none; }
 
 @media (max-width: 580px) {
-  /* HEADER, SECTION TWO */
-  #header,
-  #section-two .farmasi-info { flex-flow: column wrap; }
-
   /* HEADER, FOOTER */
   #header,
   #footer { justify-content: center; }
 
   /* HEADER */
+  #header { flex-flow: column wrap; }
+
   #header .logo { margin: 0; }
 
   /* SECTION ONE */
