@@ -59,6 +59,8 @@ h3 { font-size: 1.3em; }
   color: #8FABD0;
 }
 
+#header .logo:hover { border: none; }
+
 #nav ul {
   display: flex;
   flex-flow: row wrap;
@@ -268,7 +270,7 @@ h3 { font-size: 1.3em; }
 @media (min-width: 1024px) {
   /* SECTION ONE */
   #section-one .container { width: 40%; }
-  
+
   /* SECTION TWO */
   #section-two .cards { width: 968px; }
 }
