@@ -167,7 +167,7 @@ h3 { font-size: 1.3em; }
   align-items: center;
   flex: none;
   flex-flow: column wrap;
-  padding: 24px 0;
+  padding: 12px 0 28px;
   background-color: #356A4A;
 }
 
