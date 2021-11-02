@@ -50,10 +50,12 @@ h3 { font-size: 1.3em; }
 
 #header .logo {
   margin: 0 0 0 12px;
+  padding: 0 0 4px 0;
   font-size: 24px;
   font-weight: 400;
   text-align: center;
   text-decoration: none;
+  border-bottom: 2px solid #E8D8C8;
   color: #8FABD0;
 }
 
@@ -239,6 +241,7 @@ h3 { font-size: 1.3em; }
 
   /* SECTION ONE */
   #section-one { height: 380px; }
+
   #section-one .container { width: 80%; }
 
   /* SECTION TWO */
