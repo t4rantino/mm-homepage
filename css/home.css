@@ -41,7 +41,7 @@ h3 { font-size: 1.3em; }
   align-items: center;
   justify-content: space-between;
   padding: 12px 8px;
-  background-color: #F0EDEE;
+  background-color: #000000;
 }
 
 #header .logo {
@@ -50,7 +50,7 @@ h3 { font-size: 1.3em; }
   font-weight: 400;
   text-align: center;
   text-decoration: none;
-  color: #356A4A;
+  color: #F0EDEE;
 }
 
 #nav ul {
@@ -67,7 +67,7 @@ h3 { font-size: 1.3em; }
   margin: 0 12px;
   padding: 12px 4px;
   text-decoration: none;
-  color: #356A4A;
+  color: #F0EDEE;
 }
 
 #nav a:hover { text-decoration: underline; }
@@ -76,15 +76,27 @@ h3 { font-size: 1.3em; }
 #section-one {
   display: flex;
   align-items: center;
-  flex-flow: column wrap;
-  padding: 80px 0;
-  background-color: #356A4A;
+  justify-content: center;
+  height: 500px;
+  background:
+    url("https://storage.googleapis.com/production-gator-v1-0-4/924/842924/xO2nMqAo/f5faf277ca7f44d391ba6d4df37d124c")
+    center / 100% auto
+    no-repeat
+    #000000;
   color: #F0EDEE;
 }
 
-#section-one h1 { margin: 0; }
-
 #section-one .container { width: 60%; }
+
+#section-one .container span { background-color: #00000080; }
+
+#section-one h1,
+#section-one .p1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+#section-one h1 { margin: 0; }
 
 #section-one .p1 { margin: 0 0 36px 0; }
 
@@ -217,7 +229,11 @@ h3 { font-size: 1.3em; }
   #header .logo { margin: 0; }
 
   /* SECTION ONE */
-  #section-one .text-container { width: 80%; }
+  #section-one {
+    height: 380px;
+    background-position: bottom right;
+  }
+  #section-one .container { width: 80%; }
 
   /* SECTION TWO */
   #section-two h3 { text-align: center; }
