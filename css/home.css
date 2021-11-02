@@ -240,6 +240,8 @@ h3 { font-size: 1.3em; }
   #header .logo { margin: 0; }
 
   /* SECTION ONE */
+  #section-one { background-position: bottom left; }
+
   #section-one .container { width: 80%; }
 
   /* SECTION TWO */
