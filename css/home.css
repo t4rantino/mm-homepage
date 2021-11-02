@@ -36,6 +36,10 @@ h3 { font-size: 1.3em; }
   align-items: center;
   justify-content: space-between;
   padding: 12px 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: #000000;
 }
 
