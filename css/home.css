@@ -266,6 +266,9 @@ h3 { font-size: 1.3em; }
 }
 
 @media (min-width: 1024px) {
+  /* SECTION ONE */
+  #section-one .container { width: 40%; }
+  
   /* SECTION TWO */
   #section-two .cards { width: 968px; }
 }
