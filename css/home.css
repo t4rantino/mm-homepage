@@ -1,10 +1,5 @@
 * { box-sizing: border-box; }
 
-a:focus {
-  outline: 2px solid #07393C;
-  outline-offset: 2px;
-}
-
 html,
 body { height: 100vh; }
 
@@ -44,13 +39,18 @@ h3 { font-size: 1.3em; }
   background-color: #000000;
 }
 
+#header a:focus {
+  outline: 2px solid #F0EDEE;
+  outline-offset: 2px;
+}
+
 #header .logo {
   margin: 0 0 0 12px;
   font-size: 24px;
   font-weight: 400;
   text-align: center;
   text-decoration: none;
-  color: #F0EDEE;
+  color: #8FABD0;
 }
 
 #nav ul {
@@ -83,24 +83,25 @@ h3 { font-size: 1.3em; }
     center / 100% auto
     no-repeat
     #000000;
-  color: #F0EDEE;
 }
 
 #section-one .container { width: 60%; }
 
-#section-one .container span { background-color: #00000080; }
+#section-one .container span { background-color: #0000009B; }
 
 #section-one h1,
 #section-one .p1 {
   font-weight: 700;
   text-align: center;
+  color: #8FABD0;
 }
 
-#section-one h1 { margin: 0; }
+#section-one h1,
+#section-one .p2 { margin: 0; }
 
 #section-one .p1 { margin: 0 0 36px 0; }
 
-#section-one .p2 { margin: 0; }
+#section-one .p2 { color: #F0EDEE; }
 
 /* SECTION TWO */
 #section-two {
@@ -109,14 +110,19 @@ h3 { font-size: 1.3em; }
   flex: 1;
   flex-flow: column wrap;
   padding: 60px 0;
-  background-color: #07393C;
+  background-color: #292826;
+}
+
+#section-two a:focus {
+  outline: 2px solid #292826;
+  outline-offset: 2px;
 }
 
 #section-two h2 {
   margin: 0 0 12px 0;
   width: 75%;
   text-align: center;
-  color: #F0EDEE;
+  color: #8FABD0;
 }
 
 #section-two .cards {
@@ -140,7 +146,7 @@ h3 { font-size: 1.3em; }
 
 #section-two h3 {
   margin: 0 0 12px 0;
-  color: #07393C;
+  color: #292826;
 }
 
 #section-two .container { display: flex; }
@@ -148,10 +154,10 @@ h3 { font-size: 1.3em; }
 #section-two .text {
   flex: 1;
   margin: 0 12px 0 0;
-  color: #356A4A;
+  color: #292826;
 }
 
-#section-two .text a { color: #356A4A; }
+#section-two .text a { color: #292826; }
 
 #section-two .text a:hover { text-decoration: none; }
 
@@ -180,13 +186,12 @@ h3 { font-size: 1.3em; }
   flex: none;
   flex-flow: column wrap;
   padding: 12px 0 28px;
-  background-color: #356A4A;
+  background-color: #8FABD0;
 }
 
-#footer h2 {
-  margin: 0;
-  text-align: center;
-  color: #F0EDEE;
+#footer a:focus {
+  outline: 2px solid #292826;
+  outline-offset: 2px;
 }
 
 #footer .social-media {
@@ -203,17 +208,17 @@ h3 { font-size: 1.3em; }
   padding: 12px;
   font-size: 1.25em;
   text-decoration: none;
-  color: #F0EDEE;
+  color: #292826;
 }
 
 #footer .social-media a:hover {
-  background-color: #07393C;
+  background-color: #F0EDEE;
   border-radius: 4px;
 }
 
 #footer .back-to-top {
   font-size: 12px;
-  color: #F0EDEE;
+  color: #292826;
 }
 
 #footer .back-to-top:hover { text-decoration: none; }
