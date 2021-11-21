@@ -100,12 +100,13 @@ p {
 .logo {
   flex: 0 0 auto;
   padding: 0 0.5rem;
-  font-size: 1.5em;
+  font-size: 1.1em;
   font-weight: 700;
 }
 
 #nav {
   overflow-x: auto;
+  padding: 0.25rem 0;
   white-space: nowrap;
 }
 
