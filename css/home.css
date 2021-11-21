@@ -80,6 +80,7 @@ p {
 #header {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 0.5rem;
   position: fixed;
@@ -92,15 +93,15 @@ p {
 
 #header a {
   display: inline-block;
-  margin: 0 0.5rem;
   text-decoration: none;
   color: #292826;
 }
 
 .logo {
   flex: 0 0 auto;
+  margin: 0;
   padding: 0 0.5rem;
-  font-size: 1.1em;
+  font-size: 1.25em;
   font-weight: 700;
 }
 
@@ -118,6 +119,7 @@ p {
 }
 
 #nav a {
+  margin: 0 0.5rem;
   padding: 0.75rem 0.5rem;
 }
 
