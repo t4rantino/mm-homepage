@@ -353,6 +353,11 @@ span {
   h2 {
     text-align: left;
   }
+
+  /* HEADER */
+  #header {
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1280px) {
