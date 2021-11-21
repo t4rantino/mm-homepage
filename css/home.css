@@ -93,13 +93,13 @@ p {
 
 #header a {
   display: inline-block;
+  margin: 0 0.5rem;
   text-decoration: none;
   color: #292826;
 }
 
 .logo {
   flex: 0 0 auto;
-  margin: 0;
   padding: 0 0.5rem;
   font-size: 1.25em;
   font-weight: 700;
@@ -107,7 +107,7 @@ p {
 
 #nav {
   overflow-x: auto;
-  padding: 0.25rem 0;
+  padding: 0.5rem 0;
   white-space: nowrap;
 }
 
@@ -119,7 +119,6 @@ p {
 }
 
 #nav a {
-  margin: 0 0.5rem;
   padding: 0.75rem 0.5rem;
 }
 
@@ -138,7 +137,7 @@ p {
 
 #nav li:nth-child(1) > a,
 #nav a:hover {
-  box-shadow: inset 0 -0.3rem 0 0 #292826;
+  background-color: #8FABD0;
 }
 
 /* HERO */
