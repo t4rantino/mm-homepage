@@ -136,7 +136,7 @@ p {
 
 #nav li:nth-child(1) > a,
 #nav a:hover {
-  background-color: #8FABD0;
+  box-shadow: inset 0 -0.3rem 0 #292826;
 }
 
 /* HERO */
